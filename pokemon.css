@@ -1,0 +1,81 @@
+body {
+	background-color: #1d2463; 
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+	color: #f9dc5c; 	
+	background-color: #101010; 
+	height: 80px;
+	margin-top: 0;
+	margin-bottom: 0;  
+	text-align: center;
+	padding-top: 35px; 
+	font-weight: normal; 
+	font-size: 40px; 
+	letter-spacing: 1px; 
+}
+
+img {
+	width: 150px;
+}
+
+/*description*/
+p {
+	font-size: 20px;
+}
+
+/*button span*/
+.btn {
+	background-color: #e84855;
+	width: 100%;
+	margin: 0;
+	padding: 0; 
+}
+
+button {
+	background-color: #e84855; 
+	border: none;
+	height: 40px; 
+	width: 200px; 
+	padding: 40px 0px;
+	text-align: center;
+	font-size: 25px; 
+	color: #101010; 
+}
+
+button:hover {
+	background-color: #101010; 
+	color: #f9dc5c; 	
+}
+
+#wellWrong {
+	font-size: 40px; 
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+/*question display*/
+/*answer display*/
+.disp {
+	font-size: 50px; 
+	margin-top: 0; 
+	padding-top: 0;
+	font-weight: normal; 
+	color: #f9dc5c; 
+	height: 500px; 
+}
+
+/*toggle */
+.display2 {
+	display: none;
+	font-size: 30px; 
+}
+
+.footer {
+	padding-top: 100px; 
+	line-height: 1px; 
+}
