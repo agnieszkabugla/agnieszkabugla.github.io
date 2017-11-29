@@ -139,6 +139,12 @@ var randomQ;
 var score = 0; 
 var num = tab.length;
 
+// var sass = require('sass'); 
+// sass.render(sassContents,
+//             function (e, css){
+//                 console.log(css); 
+//             })
+
 function randomQuestion() {
 	for(var i = 0; i < 11; i++) {
 		randomQ = Math.floor(Math.random() * num);
